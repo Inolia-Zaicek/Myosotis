@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 40.0,
+  "group": "zeroing_story",
+  "ingredient": {
+    "item": "myosotis:mithril_shard"
+  },
+  "result": "myosotis:mithril_ingot"
+}

@@ -1,0 +1,5 @@
+// 1.20.1	2026-02-05T12:49:12.0599004	Recipes
+a0a9bb211771b46b6ac262e3ab7c196267f1ba4f data/minecraft/advancements/recipes/misc/mithril_ingot_from_blasting_mithril_shard.json
+d0244a71984f40282d42de0b80bbacfcb5dcd409 data/minecraft/advancements/recipes/misc/mithril_ingot_from_smelting_mithril_shard.json
+e156f293cfe80f165a454c71c9db0d76bd73b3d0 data/minecraft/recipes/mithril_ingot_from_blasting_mithril_shard.json
+0940f479375e5518874513c82c831d49931bc415 data/minecraft/recipes/mithril_ingot_from_smelting_mithril_shard.json

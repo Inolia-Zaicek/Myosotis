@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "myosotis:mithril_ore",
+    "myosotis:deepslate_mithril_ore",
+    "myosotis:magic_ore",
+    "myosotis:deepslate_magic_ore"
+  ]
+}

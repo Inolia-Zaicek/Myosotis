@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "myosotis:item/blessed_mithril_ingot"
+  }
+}

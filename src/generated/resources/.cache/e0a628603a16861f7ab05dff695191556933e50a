@@ -1,0 +1,13 @@
+// 1.20.1	2026-02-05T12:49:12.0548536	Block States: myosotis
+6883c683be0c8ac62f211534942a52bb1f20bc4d assets/myosotis/blockstates/deepslate_magic_ore.json
+a1960d92df8b05d099fe9d4f1aaa43d0157f786e assets/myosotis/blockstates/deepslate_mithril_ore.json
+3e15dd31c5fbf182dc5ff67a7ad659260e059b39 assets/myosotis/blockstates/magic_ore.json
+a1a6df5a0ab7682da33dfcbb96c71b2c5723abb0 assets/myosotis/blockstates/mithril_ore.json
+d809fcd73da679d39af0d74d126d07cb1009a8e3 assets/myosotis/models/block/deepslate_magic_ore.json
+4d9db5232d301cc4177a0eaf4e7d36dac57a4dfe assets/myosotis/models/block/deepslate_mithril_ore.json
+e94bb8279c68179c2aec9c51fb687c072c77a95c assets/myosotis/models/block/magic_ore.json
+3af1077c41ab656eb1984d28ae8080e716813880 assets/myosotis/models/block/mithril_ore.json
+09eed80de982e7c90237530cb05ff0635f0cb276 assets/myosotis/models/item/deepslate_magic_ore.json
+94f0af042980870ca4f2246ad46a2c0278f10a04 assets/myosotis/models/item/deepslate_mithril_ore.json
+6b35fe3b91f3b4e2d2bf83603c8ef1aae9311978 assets/myosotis/models/item/magic_ore.json
+dcef344fe7646d494459db9e225cc769faa0b565 assets/myosotis/models/item/mithril_ore.json

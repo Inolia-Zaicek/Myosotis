@@ -1,0 +1,4 @@
+// 1.20.1	2026-02-06T17:34:47.1384127	Registries
+956659a8235b06e8f97ff1d9d791dba4b149379b data/myosotis/forge/biome_modifier/add_deepslate_mithril_ore.json
+210bef7cd029901df9a6630bb0462d06c99a748e data/myosotis/worldgen/configured_feature/ore_deepslate_mithril.json
+86eb15faa91bd6e514b5fd0eba23109802babe50 data/myosotis/worldgen/placed_feature/ore_deepslate_mithril.json
