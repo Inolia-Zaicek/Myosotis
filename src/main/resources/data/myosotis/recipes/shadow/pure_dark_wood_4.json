@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:hard_wood"
+    },
+    "B": {
+      "item": "myosotis:pure_dark_magical_core"
+    }
+  },
+  "result": {
+    "item": "myosotis:pure_dark_wood",
+    "count": 4
+  }
+}

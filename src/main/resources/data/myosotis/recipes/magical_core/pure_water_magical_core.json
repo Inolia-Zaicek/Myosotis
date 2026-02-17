@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BA",
+    "BOB",
+    "AB "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:prismarine"
+    },
+    "B": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "O": {
+      "item": "myosotis:blank_core"
+    }
+  },
+  "result": {
+    "item": "myosotis:pure_water_magical_core",
+    "count": 1
+  }
+}

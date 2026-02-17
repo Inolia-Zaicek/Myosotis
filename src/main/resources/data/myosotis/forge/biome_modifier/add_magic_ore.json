@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "myosotis:ore_magic",
+  "step": "underground_ores"
+}

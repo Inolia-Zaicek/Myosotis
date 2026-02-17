@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BA",
+    "DOC",
+    "EF "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:moss_block"
+    },
+    "B": {
+      "item": "minecraft:vine"
+    },
+    "C": {
+      "tag": "forge:seeds"
+    },
+    "D": {
+      "tag": "minecraft:leaves"
+    },
+    "E": {
+      "item": "minecraft:azalea"
+    },
+    "F": {
+      "tag": "minecraft:saplings"
+    },
+    "O": {
+      "item": "myosotis:blank_core"
+    }
+  },
+  "result": {
+    "item": "myosotis:natural_magical_core",
+    "count": 1
+  }
+}

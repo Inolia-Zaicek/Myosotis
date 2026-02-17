@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:magic_dust"
+    },
+    "B": {
+      "tag": "forge:leather"
+    }
+  },
+  "result": {
+    "item": "myosotis:magic_leather",
+    "count": 1
+  }
+}

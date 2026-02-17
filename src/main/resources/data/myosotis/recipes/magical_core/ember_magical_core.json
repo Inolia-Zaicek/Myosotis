@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BA",
+    "BOB",
+    "AB "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:magma_block"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "O": {
+      "item": "myosotis:blank_core"
+    }
+  },
+  "result": {
+    "item": "myosotis:ember_magical_core",
+    "count": 1
+  }
+}

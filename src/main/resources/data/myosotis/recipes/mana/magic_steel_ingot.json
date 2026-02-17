@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CBC",
+    "BAB",
+    "CBC"
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:forged_steel"
+    },
+    "B": {
+      "item": "myosotis:magic_stone"
+    },
+    "C": {
+      "item": "myosotis:magic_dust"
+    }
+  },
+  "result": {
+    "item": "myosotis:magic_steel_ingot",
+    "count": 1
+  }
+}

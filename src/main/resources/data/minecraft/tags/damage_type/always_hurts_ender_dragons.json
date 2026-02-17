@@ -1,0 +1,9 @@
+{
+ "values":[
+  "myosotis:true_damage",
+  "myosotis:dot_damage",
+  "myosotis:physics_damage",
+  "myosotis:magic_damage",
+  "myosotis:element_damage"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:forged_steel"
+    },
+    "B": {
+      "item": "myosotis:celestial_crystal"
+    }
+  },
+  "result": {
+    "item": "myosotis:celestial_steel_ingot",
+    "count": 4
+  }
+}

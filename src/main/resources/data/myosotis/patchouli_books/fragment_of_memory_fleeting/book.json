@@ -1,0 +1,10 @@
+{
+    "name": "patchouli.fragment_of_memory_fleeting.book.name",
+    "landing_text": "patchouli.fragment_of_memory_fleeting.book.landing_text",
+    "model": "myosotis:fragment_of_memory_fleeting",
+    "version": 1,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "show_progress": false,
+    "i18n": true,
+    "use_resource_pack": true
+}

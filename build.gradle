@@ -151,6 +151,9 @@ dependencies {
     implementation fg.deobf("blank:citadel-1.20.1:1")
     implementation fg.deobf("blank:curios-1.20.1:1")
     implementation fg.deobf("blank:alltheores-1.20.1:1")
+    implementation fg.deobf("blank:ars_nouveau-1.20.1:1")
+    //compileOnly fg.deobf("blank:irons_spellbooks-1.20.1:1")
+    implementation fg.deobf("blank:playeranimator-1.20.1:1")
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}")

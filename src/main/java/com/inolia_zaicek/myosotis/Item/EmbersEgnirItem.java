@@ -1,6 +1,7 @@
 package com.inolia_zaicek.myosotis.Item;
 
 import com.inolia_zaicek.myosotis.Myosotis;
+import com.inolia_zaicek.myosotis.Util.MyUtil;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -21,10 +22,10 @@ import net.minecraft.world.level.Level;
 import javax.annotation.Nullable;
 import java.util.List;
 
+import static com.inolia_zaicek.myosotis.Event.HurtEvent.shield_number;
+
 public class EmbersEgnirItem extends SwordItem {
     public static final String embers_egnir_nbt = Myosotis.MODID + ":embers_egnir";
-    //护盾值默认为血量*100，计算时/100
-    public static final String shield_number = Myosotis.MODID + ":shield";
     public EmbersEgnirItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
         super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
     }
@@ -47,16 +48,16 @@ public class EmbersEgnirItem extends SwordItem {
     @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
         CompoundTag compoundTag = pPlayer.getPersistentData();
-        int shield = compoundTag.getInt(shield_number);
+        float shield = compoundTag.getFloat(shield_number);
         if(!pLevel.isClientSide()&&pUsedHand==InteractionHand.MAIN_HAND){
             pPlayer.getCooldowns().addCooldown(this,20*60);//设置冷却时间
-            compoundTag.putInt(shield_number, (int) (shield+(pPlayer.getMaxHealth()*0.3F*100) ) );
+            MyUtil.addShield(pPlayer,pPlayer.getMaxHealth()*0.3F);
             pPlayer.setRemainingFireTicks(pPlayer.getRemainingFireTicks()+200);
         }
 
         if(!pLevel.isClientSide()&&pUsedHand==InteractionHand.OFF_HAND){
             pPlayer.getCooldowns().addCooldown(this,20*60);//设置冷却时间
-            compoundTag.putInt(shield_number, (int) (shield+(pPlayer.getMaxHealth()*0.3F*100) ) );
+            MyUtil.addShield(pPlayer,pPlayer.getMaxHealth()*0.3F);
             pPlayer.setRemainingFireTicks(pPlayer.getRemainingFireTicks()+200);
         }
         return super.use(pLevel, pPlayer, pUsedHand);

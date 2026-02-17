@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  C",
+    "CA ",
+    "BC "
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:dense_mana_stone"
+    },
+    "B": {
+      "item": "myosotis:magic_controller"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "myosotis:melee_weapon_template",
+    "count": 1
+  }
+}

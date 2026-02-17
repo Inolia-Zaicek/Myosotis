@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A",
+    "A "
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:crimson_alloy"
+    }
+  },
+  "result": {
+    "item": "myosotis:weeping_blood_hilt",
+    "count": 1
+  }
+}

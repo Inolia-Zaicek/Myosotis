@@ -1,9 +1,15 @@
 package com.inolia_zaicek.myosotis;
 
+import com.inolia_zaicek.myosotis.Config.MyConfig;
 import com.inolia_zaicek.myosotis.Event.*;
 import com.inolia_zaicek.myosotis.ModelProvider.ZeroingModLootTableGen;
-import com.inolia_zaicek.myosotis.ModelProvider.ZeroingModRecipesGen;
+import com.inolia_zaicek.myosotis.Network.DamageHungerChannel;
 import com.inolia_zaicek.myosotis.Register.*;
+import com.inolia_zaicek.myosotis.Register.Tab.Tab;
+import com.inolia_zaicek.myosotis.Register.Tab.*;
+import com.inolia_zaicek.myosotis.Register.Tab.TabCraft;
+import com.inolia_zaicek.myosotis.Register.Tab.TabMelee;
+import com.inolia_zaicek.myosotis.Gui.OverlayRegistry;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
@@ -13,7 +19,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -28,33 +36,43 @@ public class Myosotis {
     public static final String MODID = "myosotis";
     public Myosotis() {
         init();
+        ModLoadingContext modLoadingContext = ModLoadingContext.get();
+        modLoadingContext.registerConfig(ModConfig.Type.COMMON, MyConfig.SPEC);
     }
 
     public void init(){
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         FeatureRegistry.register(bus);
+        //客户端
+        bus.addListener(OverlayRegistry::onRegisterOverlays);
         // 注册 Item、Tab、Entity 类型
         Tab.register(bus);
-        TabNostalgic.register(bus);
         TabCraft.register(bus);
         TabBlock.register(bus);
-        ItemRegister.register(bus);
+        TabMelee.register(bus);
+        TabRange.register(bus);
+        TabMagic.register(bus);
+        MyItemRegister.register(bus);
         BlockRegister.register(bus);
         MyEffectsRegister.INOEFFECT.register(bus);
         // 注册 CommonSetup 事件
         bus.addListener(this::commonSetup);
         // !!! 注册 ClientSetup 事件 !!!
         bus.addListener(this::clientSetup);
+        MyAttributesRegister.ATTRIBUTES.register(bus);
+        MinecraftForge.EVENT_BUS.register(EntityAttributeGiveEvent.class);
         MinecraftForge.EVENT_BUS.register(BuffEvent.class);
-        MinecraftForge.EVENT_BUS.register(HealEvent.class);
+        MinecraftForge.EVENT_BUS.register(VillagerEvents.class);
+        MinecraftForge.EVENT_BUS.register(HealAndTpEvent.class);
+        MinecraftForge.EVENT_BUS.register(TooltipEvent.class);
         MinecraftForge.EVENT_BUS.register(HurtEvent.class);
         MinecraftForge.EVENT_BUS.register(TickEvent.class);
+        MinecraftForge.EVENT_BUS.register(LoggedAndCloneEvent.class);
     }
 
     @SubscribeEvent
     public void commonSetup(FMLCommonSetupEvent event){
-        event.enqueueWork(() -> {
-        });
+        event.enqueueWork(DamageHungerChannel::init);
     }
 
     // 客户端设置事件，用于注册渲染器和GUI屏幕

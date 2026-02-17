@@ -14,7 +14,6 @@ public class MyEffectsRegister {
     public static final RegistryObject<MobEffect> CrepuscularStagnation = INOEFFECT.register("crepuscular_stagnation", CrepuscularStagnationBuff::new);
     public static final RegistryObject<MobEffect> SelfImmolation = INOEFFECT.register("self_immolation", SelfImmolationBuff::new);
     public static final RegistryObject<MobEffect> BrightFlame = INOEFFECT.register("bright_flame", BrightFlameBuff::new);
-    public static final RegistryObject<MobEffect> ShieldRed = INOEFFECT.register("shield_red", ShieldRedBuff::new);
-    public static final RegistryObject<MobEffect> ShieldYellow = INOEFFECT.register("shield_yellow", ShieldYellowBuff::new);
-    public static final RegistryObject<MobEffect> ShieldGreen = INOEFFECT.register("shield_green", ShieldGreenBuff::new);
+    public static final RegistryObject<MobEffect> GrievousWounds = INOEFFECT.register("grievous_wounds", GrievousWoundsBuff::new);
+    public static final RegistryObject<MobEffect> EnderFerence = INOEFFECT.register("ender_ference", EnderFerenceBuff::new);
 }

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BA",
+    "BOB",
+    "AB "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blue_ice"
+    },
+    "B": {
+      "item": "minecraft:packed_ice"
+    },
+    "O": {
+      "item": "myosotis:blank_core"
+    }
+  },
+  "result": {
+    "item": "myosotis:frost_magical_core",
+    "count": 1
+  }
+}

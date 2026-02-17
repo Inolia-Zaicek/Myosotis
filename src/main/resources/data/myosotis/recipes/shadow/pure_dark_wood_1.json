@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "myosotis:hard_wood"
+    },
+    {
+      "item": "myosotis:pure_dark_magical_core"
+    }
+  ],
+  "result": {
+    "item": "myosotis:pure_dark_wood",
+    "count": 1
+  }
+}

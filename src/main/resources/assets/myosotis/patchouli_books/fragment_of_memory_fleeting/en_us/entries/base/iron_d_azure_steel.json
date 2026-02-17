@@ -1,0 +1,12 @@
+{
+    "sortnum": 1,
+    "name": "patchouli.myosotis.book.entries.base.iron_d_azure_steel.name",
+    "icon": "minecraft:green_dye",
+    "category": "myosotis:base",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "patchouli.myosotis.book.entries.base.iron_d_azure_steel.pages.0.text"
+        }
+    ]
+}

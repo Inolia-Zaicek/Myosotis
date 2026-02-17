@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "myosotis:forged_steel"
+    },
+    {
+      "item": "myosotis:celestial_crystal"
+    }
+  ],
+  "result": {
+    "item": "myosotis:celestial_steel_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A",
+    "A "
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:pure_dark_wood"
+    }
+  },
+  "result": {
+    "item": "myosotis:refined_dark_grip",
+    "count": 1
+  }
+}

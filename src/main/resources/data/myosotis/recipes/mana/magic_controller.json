@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A",
+    "A "
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:magic_stone"
+    }
+  },
+  "result": {
+    "item": "myosotis:magic_controller",
+    "count": 1
+  }
+}

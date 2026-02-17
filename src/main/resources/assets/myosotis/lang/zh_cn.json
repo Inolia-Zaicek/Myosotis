@@ -1,16 +1,16 @@
 {
 "item.myosotis.myosotis_1":"§6■■§b的誓约",
 "tooltip.myosotis.myosotis_1.text":"§b一个理想，一个使命，一个心愿\n§b一个未做完的梦，一个未完成的约定\n§b承载着世界的意志，本就是天方夜谭之事\n§b可§6■■§b依旧无所畏惧的走向了这条道路\n\n§7“§6■■§7，可这样做要付出多少代价？”\n§7“或许祂的本身，就是一种代价”\n\n§b按§6shift§b查看饰品效果\n\n§b按§6alt§b查看饰品特性\n\n§9+3世界意志栏",
-"tooltip.myosotis.myosotis_1.shift_text":"§6「夜喃」\n§7·诅咒效果：你将无法入眠，在夜晚造成的伤害减少50%，同时受到的负面效果时间延长 100%\n§6「噬恩」\n§7·诅咒效果：治疗量减少70%，最大生命值降低30%\n§6「暮滞」\n§7·诅咒效果：每次攻击会获得[暮滞]效果，每一层[暮滞]会降低自身10%的攻击速度与移动速度，可叠加5层\n§6「离心」\n§7·诅咒效果：中立生物会主动攻击你，你所受到的正面效果时长减半\n§6「尘躯」\n§7·诅咒效果：盔甲效力降低50%，火焰在你的身上不会熄灭，受到的有源伤害提高30% \n§6「重创」\n§7·诅咒效果：受到生物攻击玩家至少受到自身最大生命值的 20%",
+"tooltip.myosotis.myosotis_1.shift_text":"§6「夜喃」\n§7·诅咒效果：你将无法入眠，在夜晚造成的伤害减少%d%%，同时受到的负面效果时间延长%d%%\n§6「噬恩」\n§7·诅咒效果：治疗量减少%d%%，最大生命值降低%d%%\n§6「暮滞」\n§7·诅咒效果：每次攻击会获得[暮滞]效果，每一层[暮滞]会降低自身10%的攻击速度与移动速度，可叠加%d层\n§6「离心」\n§7·诅咒效果：中立生物会主动攻击你，你所受到的正面效果时长减少%d%%\n§6「尘躯」\n§7·诅咒效果：盔甲效力降低%d%%，火焰在你的身上不会熄灭，受到的有源伤害提高%d%%\n§6「重创」\n§7·诅咒效果：受到生物攻击玩家至少受到自身最大生命值的%d%%",
 "tooltip.myosotis.myosotis_1.alt_text":"§6·经过世界意志的认可，你可以佩戴一些特殊的饰品\n§6·在经过熔火之地与终末之地的历练后，祂似乎会发生某种变化\n§6·会有一些奇特的物品从生物中掉落\n§6·承载世界意志之人，会走向■■的道路",
 
 "message.myosotis.can_not_sleep": "睡不着...",
 "message.myosotis.level_up": "§6■■§b的誓约§9发生了奇妙的变化！",
-"effect.flame_chase_artifacts.iron_tomb_erosion": "暮滞",
+"effect.myosotis.crepuscular_stagnation": "暮滞",
 
 "item.myosotis.myosotis_2":"§6■■§b的誓约",
 "tooltip.myosotis.myosotis_2.text":"§b一个理想，一个使命，一个心愿\n§b一个未做完的梦，一个未完成的约定\n§b承载着世界的意志，本就是天方夜谭之事\n§b可§6■■§b依旧无所畏惧的走向了这条道路\n\n§7“§6■■§7，可这样做要付出多少代价？”\n§7“或许祂的本身，就是一种代价”\n\n§b按§6shift§b查看饰品效果\n\n§b按§6alt§b查看饰品特性\n\n§9+5世界意志栏",
-"tooltip.myosotis.myosotis_2.shift_text":"§6「夜喃」\n§7·诅咒效果：你将无法入眠，在夜晚造成的伤害减少50%，同时受到的负面效果时间延长 50%\n§6「噬恩」\n§7·诅咒效果：治疗量减少30%，最大生命值降低20%\n§6「暮滞」\n§7·诅咒效果：每次攻击会获得[暮滞]效果，每一层[暮滞]会降低自身10%的攻击速度与移动速度，可叠加3层\n§6「离心」\n§7·诅咒效果：中立生物会主动攻击你，你所受到的正面效果时长减半\n§6「尘躯」\n§7·诅咒效果：盔甲效力降低30%，受到的有源伤害提高20% \n§6「重创」\n§7·诅咒效果：受到生物攻击玩家至少受到自身最大生命值的 10%",
+"tooltip.myosotis.myosotis_2.shift_text":"§6「夜喃」\n§7·诅咒效果：你将无法入眠，在夜晚造成的伤害减少%d%%，同时受到的负面效果时间延长%d%%\n§6「噬恩」\n§7·诅咒效果：治疗量减少%d%%，最大生命值降低%d%%\n§6「暮滞」\n§7·诅咒效果：每次攻击会获得[暮滞]效果，每一层[暮滞]会降低自身10%的攻击速度与移动速度，可叠加%d层\n§6「离心」\n§7·诅咒效果：中立生物会主动攻击你，你所受到的正面效果时长减少%d%%\n§6「尘躯」\n§7·诅咒效果：盔甲效力降低%d%%，受到的有源伤害提高%d%%\n§6「重创」\n§7·诅咒效果：受到生物攻击玩家至少受到自身最大生命值的%d%%",
 "tooltip.myosotis.myosotis_2.alt_text":"§6·经过世界意志的认可，你可以佩戴一些特殊的饰品\n§6·在经过熔火之地与终末之地的历练后，祂似乎会发生某种变化\n§6·会有一些奇特的物品从生物中掉落\n§6·承载世界意志之人，会走向■■的道路",
 
 "item.myosotis.myosotis_3":"§6■■§b的誓约",
@@ -27,58 +27,97 @@
 "tooltip.myosotis.embers_egnir.text":"§6由余烬淬炼而成，承载着何者的执念\n§c这份扭曲的执念，令它脱离了死亡的束缚，获得了某种意义上的「新生」\n\n§c按§6alt§c查看武器详情",
 "tooltip.myosotis.embers_egnir.alt_text":"§6「死亡与新生的余火」：\n§6每次攻击使目标「余火」进度条提高10点，到达100点后，给予目标［焚身］状态\n§c「灼热的凯歌」：\n§6攻击处于§c［焚身］§6状态下的生物时，为目标施加§e［耀炎］§6，每秒对该目标以及周边5×5范围内的生物造成自身3%攻击伤害的魔法伤害\n§4「罪业的薪火」：\n§6右键获得业火的力量，自身持续燃烧，并且获得基于自身生命值30%的」§f［护盾］§6，冷却60秒",
 
-"effect.flame_chase_artifacts.self_immolation": "焚身",
-"effect.flame_chase_artifacts.bright_flame": "耀炎",
-
-"effect.flame_chase_artifacts.shield_red": "护甲值·低",
-"effect.flame_chase_artifacts.shield_yellow": "护甲值·中",
-"effect.flame_chase_artifacts.shield_green": "护甲值·高",
+"effect.myosotis.self_immolation": "焚身",
+"effect.myosotis.bright_flame": "耀炎",
 
 "item.myosotis.pure_dark_magical_core":"§7粹暗魔力核心",
-"tooltip.myosotis.pure_dark_magical_core.text":"§7由粹暗魔力凝结成的聚合物\n§6用于武器与装备的制作与强化\n§5魔力素材",
+"tooltip.myosotis.pure_dark_magical_core.text":"§7由粹暗魔力凝结成的聚合物",
+"tooltip.myosotis.pure_dark_magical_core.text1":"§6用于武器与装备的制作与强化",
+"tooltip.myosotis.pure_dark_magical_core.text2":"§5魔力素材",
+
 "item.myosotis.thunderous_magical_core":"§9震霆魔力核心",
-"tooltip.myosotis.thunderous_magical_core.text":"§7由震霆魔力凝结成的聚合物\n§6用于武器与装备的制作与强化\n§5魔力素材",
+"tooltip.myosotis.thunderous_magical_core.text":"§7由震霆魔力凝结成的聚合物",
+"tooltip.myosotis.thunderous_magical_core.text1":"§6用于武器与装备的制作与强化",
+"tooltip.myosotis.thunderous_magical_core.text2":"§5魔力素材",
+
 "item.myosotis.ember_magical_core":"§c余火魔力核心",
-"tooltip.myosotis.ember_magical_core.text":"§7由余火魔力凝结成的聚合物\n§6用于武器与装备的制作与强化\n§5魔力素材",
+"tooltip.myosotis.ember_magical_core.text":"§7由余火魔力凝结成的聚合物",
+"tooltip.myosotis.ember_magical_core.text1":"§6用于武器与装备的制作与强化",
+"tooltip.myosotis.ember_magical_core.text2":"§5魔力素材",
+
 "item.myosotis.pure_water_magical_core":"§1纯水魔力核心",
-"tooltip.myosotis.pure_water_magical_core.text":"§7由纯水魔力凝结成的聚合物\n§6用于武器与装备的制作与强化\n§5魔力素材",
+"tooltip.myosotis.pure_water_magical_core.text":"§7由纯水魔力凝结成的聚合物",
+"tooltip.myosotis.pure_water_magical_core.text1":"§6用于武器与装备的制作与强化",
+"tooltip.myosotis.pure_water_magical_core.text2":"§5魔力素材",
+
 "item.myosotis.natural_magical_core":"§a自然魔力核心",
-"tooltip.myosotis.natural_magical_core.text":"§7由自然魔力凝结成的聚合物\n§6用于武器与装备的制作与强化\n§5魔力素材",
+"tooltip.myosotis.natural_magical_core.text":"§7由自然魔力凝结成的聚合物",
+"tooltip.myosotis.natural_magical_core.text1":"§6用于武器与装备的制作与强化",
+"tooltip.myosotis.natural_magical_core.text2":"§5魔力素材",
+
 "item.myosotis.frost_magical_core":"§b霜冻魔力核心",
-"tooltip.myosotis.frost_magical_core.text":"§7由霜冻魔力凝结成的聚合物\n§6用于武器与装备的制作与强化\n§5魔力素材",
+"tooltip.myosotis.frost_magical_core.text":"§7由霜冻魔力凝结成的聚合物",
+"tooltip.myosotis.frost_magical_core.text1":"§6用于武器与装备的制作与强化",
+"tooltip.myosotis.frost_magical_core.text2":"§5魔力素材",
+
 "item.myosotis.sacred_spirit_magical_core":"§e圣灵魔力核心",
-"tooltip.myosotis.sacred_spirit_magical_core.text":"§7由圣灵魔力凝结成的聚合物\n§6用于武器与装备的制作与强化\n§5魔力素材",
+"tooltip.myosotis.sacred_spirit_magical_core.text":"§7由圣灵魔力凝结成的聚合物",
+"tooltip.myosotis.sacred_spirit_magical_core.text1":"§6用于武器与装备的制作与强化",
+"tooltip.myosotis.sacred_spirit_magical_core.text2":"§5魔力素材",
+
 "item.myosotis.crimson_magical_core":"§4猩红魔力核心",
-"tooltip.myosotis.crimson_magical_core.text":"§7由猩红魔力凝结成的聚合物\n§6用于武器与装备的制作与强化\n§5魔力素材",
+"tooltip.myosotis.crimson_magical_core.text":"§7由猩红魔力凝结成的聚合物",
+"tooltip.myosotis.crimson_magical_core.text1":"§6用于武器与装备的制作与强化",
+"tooltip.myosotis.crimson_magical_core.text2":"§5魔力素材",
+
 
 "item.myosotis.magic_stone":"§b魔力石",
-"tooltip.myosotis.magic_stone.text":"§6蕴含大量魔力的宝石\n§6是良好的魔导素材\n§5魔力素材",
+"tooltip.myosotis.magic_stone.text":"§6蕴含大量魔力的石材",
+"tooltip.myosotis.magic_stone.text1":"§6是良好的魔导素材",
+"tooltip.myosotis.magic_stone.text2":"§5魔力素材",
+
 "item.myosotis.magic_dust":"§b魔力粉尘",
-"tooltip.myosotis.magic_dust.text":"§6散发魔法气息的淡蓝色粉尘\n§6大陆上最常见的魔力材料\n§5魔力素材",
+"tooltip.myosotis.magic_dust.text":"§6散发魔法气息的淡蓝色粉尘",
+"tooltip.myosotis.magic_dust.text1":"§6大陆上最常见的魔力材料",
+"tooltip.myosotis.magic_dust.text2":"§5魔力素材",
+
 "item.myosotis.magic_controller":"§b魔力手柄",
-"tooltip.myosotis.magic_controller.text":"§6通过精细的制作制成的手柄\n§6能够承受某些武器的力量\n§5武器材料",
+"tooltip.myosotis.magic_controller.text":"§6通过精细的制作制成的手柄",
+"tooltip.myosotis.magic_controller.text1":"§6能够承受某些武器的力量",
+"tooltip.myosotis.magic_controller.text2":"§5武器材料",
 
 "item.myosotis.dense_mana_stone":"§b浓缩魔力石",
-"tooltip.myosotis.dense_mana_stone.text":"§6由魔力石二次加工而成的产物\n§6有着比普通魔力石更好的魔导性\n§5魔力素材",
+"tooltip.myosotis.dense_mana_stone.text":"§6由魔力石二次加工而成的产物",
+"tooltip.myosotis.dense_mana_stone.text1":"§6有着比普通魔力石更好的魔导性",
+"tooltip.myosotis.dense_mana_stone.text2":"§5魔力素材",
+
 "item.myosotis.forged_steel":"§f精锻钢",
-"tooltip.myosotis.forged_steel.text":"§6千锤百炼后的钢铁\n§6无论是硬度和质量都为上乘\n§5武器材料",
-"item.myosotis.pure_dark_wood":"§0粹暗木",
-"tooltip.myosotis.pure_dark_wood.text":"§6粹暗魔力尽染的木材\n§6可以作为粹暗力量的容器\n§5魔力素材、武器材料",
+"tooltip.myosotis.forged_steel.text":"§6千锤百炼后的钢铁",
+"tooltip.myosotis.forged_steel.text1":"§6无论是硬度和质量都为上乘",
+"tooltip.myosotis.forged_steel.text2":"§5武器材料",
+
+"item.myosotis.pure_dark_wood":"§5粹暗木",
+"tooltip.myosotis.pure_dark_wood.text":"§6粹暗魔力尽染的木材",
+"tooltip.myosotis.pure_dark_wood.text1":"§6可以作为粹暗力量的容器",
+"tooltip.myosotis.pure_dark_wood.text2":"§5魔力素材、武器材料",
+
 "item.myosotis.refined_dark_alloy":"§5粹暗合金",
-"tooltip.myosotis.refined_dark_alloy.text":"§6用于锻造粹暗武装的暗魔力钢\n§5魔力素材、武器材料",
+"tooltip.myosotis.refined_dark_alloy.text":"§6用于锻造粹暗武装的暗魔力钢",
+"tooltip.myosotis.refined_dark_alloy.text1":"§5魔力素材、武器材料",
+
 "item.myosotis.refined_dark_grip":"§5粹暗手柄",
-"tooltip.myosotis.refined_dark_grip.text":"§6以魔力手柄作为素材底板\n§6对粹暗木进行深加工的产物\n§5魔力素材、武器材料",
+"tooltip.myosotis.refined_dark_grip.text":"§6以魔力手柄作为素材底板",
+"tooltip.myosotis.refined_dark_grip.text1":"§6对粹暗木进行深加工的产物",
+"tooltip.myosotis.refined_dark_grip.text2":"§5魔力素材、武器材料",
+
 "item.myosotis.fused_mana":"§f融合魔力",
-"tooltip.myosotis.fused_mana.text":"§6一种神奇的魔力，他的存在似乎并不合理\n§5合成素材",
-"item.myosotis.good_will":"§9善",
-"tooltip.myosotis.good_will.text":"§6或许是无意之间，又或许是伸出援手\n§6总而言之，你做了一件善事\n§5特殊素材",
-"item.myosotis.malice":"§4恶",
-"tooltip.myosotis.malice.text":"§6或许是碾碎蝼蚁，又或许是对弱者毫不怜悯\n§6总而言之，你的账本上又增添了一笔血债\n§5特殊素材",
+"tooltip.myosotis.fused_mana.text":"§6一种神奇的魔力，他的存在似乎并不合理",
+"tooltip.myosotis.fused_mana.text1":"§5合成素材",
 
 "item.myosotis.memory":"§b忆",
-"tooltip.myosotis.memory.text":"§6一次次战斗，一次次生与死的抉择，一丝一缕的记忆",
-"tooltip.myosotis.memory.text1":"§6一路的旅程，一个个瞬间，永远藏在脑海深处",
-"tooltip.myosotis.memory.text2":"§6那里四季如春，百花齐放，希望以后，璀璨永在",
+"tooltip.myosotis.memory.text":"§6一路战斗，一路抉择。生与死的瞬间被捻作丝线，交织成无法抹去的记忆",
+"tooltip.myosotis.memory.text1":"§6旅程中那些零散的片段，被永久安放在脑海深处——那里四季如春，百花不败",
+"tooltip.myosotis.memory.text2":"§6惟愿所有珍藏，自此沉静发光。这便是回望时，全部的答案",
 "tooltip.myosotis.memory.text3":"§5特殊素材",
 
 "block.myosotis.mithril_ore": "秘银矿石",
@@ -99,6 +138,14 @@
 "tooltip.myosotis.celestial_steel_ingot.text":"§6精锻钢使用圣灵的力量锻造而成的产物",
 "tooltip.myosotis.celestial_steel_ingot.text1":"§5武器材料、合成素材、魔力素材",
 
+"item.myosotis.blessed_mithril_ingot":"§e神圣秘银锭",
+"tooltip.myosotis.blessed_mithril_ingot.text":"§6在魔力的加持下，秘银锭的效果与能力获得了提高",
+"tooltip.myosotis.blessed_mithril_ingot.text1":"§5武器材料，合成素材，魔力素材",
+
+"item.myosotis.magic_leather":"§b魔力皮革",
+"tooltip.myosotis.magic_leather.text":"§6由皮革与魔力相结合制成的防具材料",
+"tooltip.myosotis.magic_leather.text1":"§5盔甲材料",
+
 "item.myosotis.celestial_crystal":"§e圣灵水晶",
 "tooltip.myosotis.celestial_crystal.text":"§6最纯粹的圣灵魔力聚合物",
 "tooltip.myosotis.celestial_crystal.text1":"§5武器材料、合成素材、魔力素材",
@@ -115,12 +162,135 @@
 "tooltip.myosotis.caster_weapon_template.text":"§6法器武器的原胚，不能直接用于战斗",
 "tooltip.myosotis.caster_weapon_template.text1":"§5合成素材",
 
+
+"item.myosotis.hard_wood":"§f坚硬木材",
+"tooltip.myosotis.hard_wood.text":"§6坚硬又不失品质的木材",
+"tooltip.myosotis.hard_wood.text1":"§6无论是用于加工还是用来制作武器都是一流",
+"tooltip.myosotis.hard_wood.text2":"§5武器材料、合成素材",
+
+"item.myosotis.crimson_alloy":"§4猩红合金",
+"tooltip.myosotis.crimson_alloy.text":"§6将粹暗合金用血泣的力量深加工后的金属",
+"tooltip.myosotis.crimson_alloy.text1":"§6虽说强大，但散发出的气息令人不安",
+"tooltip.myosotis.crimson_alloy.text2":"§5魔力素材，武器材料",
+
+"item.myosotis.weeping_blood_diamond":"§4泣血钻",
+"tooltip.myosotis.weeping_blood_diamond.text":"§6在不知多少次的杀戮当中凝聚出的血色晶体",
+"tooltip.myosotis.weeping_blood_diamond.text1":"§6用成千上万的生灵的死亡换取的力量",
+"tooltip.myosotis.weeping_blood_diamond.text2":"§5魔力素材，武器材料",
+
+"item.myosotis.magic_steel_ingot":"§b魔力钢锭",
+"tooltip.myosotis.magic_steel_ingot.text":"§6本就精良的钢锭在魔力的进一步催化下，品质再度提升",
+"tooltip.myosotis.magic_steel_ingot.text1":"§6其硬度与坚韧程度都强于千锻钢",
+"tooltip.myosotis.magic_steel_ingot.text2":"§5魔力素材，武器材料",
+
+"item.myosotis.whisper_of_nature":"§a自然低语",
+"tooltip.myosotis.whisper_of_nature.text":"§6自然魔力本源的些许微弱气息凝聚的魔力",
+"tooltip.myosotis.whisper_of_nature.text1":"§6自然禁律随手洒出的微光，但终究是属于神",
+"tooltip.myosotis.whisper_of_nature.text2":"§5高级魔力素材，武器材料，合成素材",
+
+"item.myosotis.weeping_blood_hilt":"§4血泣纹柄",
+"tooltip.myosotis.weeping_blood_hilt.text":"§6刻有猩红符文的剑柄，那鲜艳的颜色宛如鲜血",
+"tooltip.myosotis.weeping_blood_hilt.text1":"§5魔力素材，武器材料，合成素材",
+
+"item.myosotis.frost_breath":"§b霜寒冷息",
+"tooltip.myosotis.frost_breath.text":"§6霜冻魔力本源的些许微弱气息凝聚的魔力",
+"tooltip.myosotis.frost_breath.text1":"§6霜冻禁律悲鸣的叹息，仿佛蕴含着无尽的悲凉",
+"tooltip.myosotis.frost_breath.text2":"§5高级魔力素材，武器材料，合成素材",
+
+"item.myosotis.blazing_magma":"§c极热熔火",
+"tooltip.myosotis.blazing_magma.text":"§6余火魔力本源的些许微弱气息凝聚的魔力",
+"tooltip.myosotis.blazing_magma.text1":"§6余火禁律在往昔的战斗中残余的火焰，含有强大的战意",
+"tooltip.myosotis.blazing_magma.text2":"§5高级魔力素材，武器材料，合成素材",
+
+"item.myosotis.cobalt_thunder_gather":"§9苍蓝聚雷",
+"tooltip.myosotis.cobalt_thunder_gather.text":"§6震霆魔力本源的些许微弱气息凝聚的魔力",
+"tooltip.myosotis.cobalt_thunder_gather.text1":"§6震霆禁律残余的怒意凝聚的雷霆，蕴含强大的破坏力",
+"tooltip.myosotis.cobalt_thunder_gather.text2":"§5高级魔力素材，武器材料，合成素材",
+
+"item.myosotis.evil_eyeball":"§7暗噬邪眼",
+"tooltip.myosotis.evil_eyeball.text":"§6粹暗魔力本源的些许微弱气息凝聚的魔力",
+"tooltip.myosotis.evil_eyeball.text1":"§6粹暗禁律以世上的恶为源泉制作的物品，恶，又该怎样被定义呢？",
+"tooltip.myosotis.evil_eyeball.text2":"§5高级魔力素材，武器材料，合成素材",
+
+"item.myosotis.essence_of_clarity":"§1澄澈凝露",
+"tooltip.myosotis.essence_of_clarity.text":"§6纯水魔力本源的些许微弱气息凝聚的魔力",
+"tooltip.myosotis.essence_of_clarity.text1":"§6纯水禁律的眼泪所化的露水，虽说如此，但祂为何会哭泣呢？",
+"tooltip.myosotis.essence_of_clarity.text2":"§5高级魔力素材，武器材料，合成素材",
+
+"item.myosotis.holy_radiance_core":"§e圣辉源核",
+"tooltip.myosotis.holy_radiance_core.text":"§6圣灵魔力本源的些许微弱气息凝聚的魔力",
+"tooltip.myosotis.holy_radiance_core.text1":"§6圣灵禁律以世上的善为源泉制作的物品，善，又该怎样被定义呢？",
+"tooltip.myosotis.holy_radiance_core.text2":"§5高级魔力素材，武器材料，合成素材",
+
+
+"myosotis.max_mana":"最大魔力值",
+"myosotis.max_mana.desc": "决定实体的魔力上限",
+"myosotis.mana_regan":"魔力再生速率",
+"myosotis.mana_regan.desc": "每秒回复等同于魔力再生速率的魔力值",
+"myosotis.damage_amplifier":"伤害增幅",
+"myosotis.damage_amplifier.desc": "令属性拥有者造成的伤害*该属性数额",
+"myosotis.damage_reduction":"伤害减免",
+"myosotis.damage_reduction.desc": "令属性拥有者受到的伤害*(2-该属性数额)",
+"myosotis.max_shield":"护盾上限",
+"myosotis.max_shield.desc": "决定了属性拥有者最多可以拥有多少护盾值(该数额*最大生命值=最终护盾上限)",
+"myosotis.shield_toughness":"护盾韧性",
+"myosotis.shield_toughness.desc": "每点护盾值可以吸收的伤害数额",
+"myosotis.magic_power":"魔法强度",
+"myosotis.magic_power.desc": "在属性拥有者使用法器时，为最终数值提升相当于该属性数值的固定值",
+"myosotis.magic_amplifier":"魔法增幅",
+"myosotis.magic_amplifier.desc": "在属性拥有者使用法器时，令效果的最终数值*该属性值(兼容铁魔法、新生魔艺)",
+"myosotis.melee_amplifier":"近战增幅",
+"myosotis.melee_amplifier.desc": "为近战攻击造成的伤害*该属性值",
+"myosotis.range_amplifier":"弹射物增幅",
+"myosotis.range_amplifier.desc": "为弹射物攻击造成的伤害*该属性值(兼容TACZ、卓越前线)",
+"myosotis.cri_chance":"暴击率",
+"myosotis.cri_chance.desc": "决定触发暴击伤害增幅的概率",
+"myosotis.cri_damage":"暴击伤害",
+"myosotis.cri_damage.desc": "通过模组的暴击率属性触发暴击时，伤害数额*该属性值",
+
+
+"item.myosotis.divine_radiance_diamond":"§e圣灵辉钻",
+"tooltip.myosotis.divine_radiance_diamond.text":"§6运用某种古老的工艺制成高纯度圣灵结晶块",
+"tooltip.myosotis.divine_radiance_diamond.text1":"§6蕴含着极为庞大的圣灵魔力",
+"tooltip.myosotis.divine_radiance_diamond.text2":"§5魔力素材，武器材料，合成素材",
+
+"item.myosotis.heart_of_blood":"§4血之心",
+"tooltip.myosotis.heart_of_blood.text":"§6被猩红魔力彻底侵蚀后产生的扭曲物品",
+"tooltip.myosotis.heart_of_blood.text1":"§5魔力素材，武器材料，合成素材",
+
+"item.myosotis.blank_core":"§f空白核心",
+"tooltip.myosotis.blank_core.text":"§f用于承载其余魔力的核心",
+"tooltip.myosotis.blank_core.text1":"§5合成素材",
+
+
+"effect.myosotis.grievous_wounds": "重伤",
+"effect.myosotis.star_blade.desc": "每级降低目标10%%生命回复数额",
+"effect.myosotis.ender_ference": "抑影",
+"effect.myosotis.ender_ference.desc": "禁止目标的传送事件",
+
+
+
+
+"death.attack.true_damage": "%1$s死于真实伤害。",
+"death.attack.element_damage": "%1$s死于元素伤害。",
+"death.attack.magic_damage": "%1$s死于魔法伤害。",
+"death.attack.physics_damage": "%1$s死于物理伤害。",
+"death.attack.dot_damage": "%1$s死于持续伤害。",
+
+"item.myosotis.fragment_of_memory_fleeting": "§b「刹那」记忆残章",
+"patchouli.fragment_of_memory_fleeting.book.name":"§b「刹那」记忆残章",
+"tooltip.myosotis.fragment_of_memory_fleeting.text": "§6“我们，这是在何处？”",
+"tooltip.myosotis.fragment_of_memory_fleeting.text1": "§6“这里是或是世界之外”",
+"tooltip.myosotis.fragment_of_memory_fleeting.text2": "§6“是时间永不疲倦的双手，抄录下的永恒”",
+
 "curios.identifier.wish": "愿",
 "curios.modifiers.wish": "",
 "curios.identifier.world_will": "世界意志",
 "curios.modifiers.world_will": "",
 "item_group.myosotis.tab":"勿忘我-饰品",
-"item_group.myosotis.tab2":"勿忘我-追忆",
-"item_group.myosotis.tab3":"勿忘我-材料",
-"item_group.myosotis.tab4":"勿忘我-方块"
+"item_group.myosotis.melee_weapon":"勿忘我-近战武器",
+"item_group.myosotis.magic_weapon":"勿忘我-魔法武器",
+"item_group.myosotis.range_weapon":"勿忘我-弓弩武器",
+"item_group.myosotis.craft_materials":"勿忘我-材料",
+"item_group.myosotis.block":"勿忘我-方块"
 }

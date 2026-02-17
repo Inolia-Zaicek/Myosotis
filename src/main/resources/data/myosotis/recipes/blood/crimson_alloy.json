@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "myosotis:refined_dark_alloy"
+    },
+    {
+      "item": "myosotis:crimson_magical_core"
+    }
+  ],
+  "result": {
+    "item": "myosotis:crimson_alloy",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "myosotis:magic_steel_ingot"
+    },
+    {
+      "item": "myosotis:pure_dark_magical_core"
+    }
+  ],
+  "result": {
+    "item": "myosotis:refined_dark_alloy",
+    "count": 1
+  }
+}

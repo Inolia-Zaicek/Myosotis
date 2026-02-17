@@ -2,6 +2,7 @@ package com.inolia_zaicek.myosotis.Item;
 
 import com.google.common.collect.LinkedHashMultimap;
 import com.google.common.collect.Multimap;
+import com.inolia_zaicek.myosotis.Config.MyConfig;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -44,6 +45,11 @@ public class Myosotis2Item extends Item implements ICurioItem {
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         if(Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.translatable("tooltip.myosotis.myosotis_2.shift_text"
+                    ,(float)(MyConfig.myosotis_2_night.get()*100),(float)(MyConfig.myosotis_2_debuff.get()*100)
+                    ,(float)(MyConfig.myosotis_2_heal.get()*100),(float)(MyConfig.myosotis_2_hp.get()*100)
+                    ,(int)(MyConfig.myosotis_2_max_buff.get()*1),(float)(MyConfig.myosotis_2_buff.get()*100)
+                    ,(float)(MyConfig.myosotis_2_armor.get()*100)
+                    ,(float)(MyConfig.myosotis_2_source_damage.get()*100),(float)(MyConfig.myosotis_2_hp_damage.get()*100)
             ).withStyle(style -> style.withColor(ChatFormatting.YELLOW)));
         }else if(Screen.hasAltDown()) {
                 pTooltipComponents.add(Component.translatable("tooltip.myosotis.myosotis_2.alt_text"
@@ -58,9 +64,9 @@ public class Myosotis2Item extends Item implements ICurioItem {
     @Override
     public Multimap<Attribute, AttributeModifier> getAttributeModifiers(SlotContext slotContext, UUID uuid, ItemStack stack) {
         Multimap<Attribute, AttributeModifier> atts = LinkedHashMultimap.create();
-        atts.put(Attributes.MAX_HEALTH, new AttributeModifier(uuid, this.getTooltipItemName(), -0.2, AttributeModifier.Operation.MULTIPLY_BASE));
-        atts.put(Attributes.ARMOR, new AttributeModifier(uuid, this.getTooltipItemName(), -0.3, AttributeModifier.Operation.MULTIPLY_TOTAL));
-        atts.put(Attributes.ARMOR_TOUGHNESS, new AttributeModifier(uuid, this.getTooltipItemName(), -0.3, AttributeModifier.Operation.MULTIPLY_TOTAL));
+        atts.put(Attributes.MAX_HEALTH, new AttributeModifier(uuid, this.getTooltipItemName(), -MyConfig.myosotis_2_hp.get(), AttributeModifier.Operation.MULTIPLY_BASE));
+        atts.put(Attributes.ARMOR, new AttributeModifier(uuid, this.getTooltipItemName(), -MyConfig.myosotis_2_armor.get(), AttributeModifier.Operation.MULTIPLY_TOTAL));
+        atts.put(Attributes.ARMOR_TOUGHNESS, new AttributeModifier(uuid, this.getTooltipItemName(), -MyConfig.myosotis_2_armor_toughness.get(), AttributeModifier.Operation.MULTIPLY_TOTAL));
         CuriosApi.getCuriosHelper().addSlotModifier(atts, "world_will", uuid, 5, AttributeModifier.Operation.ADDITION);
         return atts;
     }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BOB",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "myosotis:celestial_crystal"
+    },
+    "O": {
+      "item": "myosotis:blank_core"
+    }
+  },
+  "result": {
+    "item": "myosotis:sacred_spirit_magical_core",
+    "count": 1
+  }
+}

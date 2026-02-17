@@ -1,6 +1,6 @@
 package com.inolia_zaicek.myosotis.ModelProvider;
 
-import com.inolia_zaicek.myosotis.Register.ItemRegister;
+import com.inolia_zaicek.myosotis.Register.MyItemRegister;
 import com.inolia_zaicek.myosotis.Myosotis;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -26,18 +26,18 @@ public class ZeroingModItemModelGen extends ItemModelProvider {
     @Override
     protected void registerModels() {
         //遍历工具物品，使用 item/handheld 模型
-        for(RegistryObject<Item> itemsDeferredRegister: ItemRegister.NostalgicItem){
+        for(RegistryObject<Item> itemsDeferredRegister: MyItemRegister.MeleeItem){
             if(itemsDeferredRegister.isPresent()){
                 itemHandheldModel(itemsDeferredRegister.get(),resourceItem(itemName(itemsDeferredRegister.get())));
             }
         }
         //物品
-        for(RegistryObject<Item> itemsDeferredRegister: ItemRegister.CommonItem){
+        for(RegistryObject<Item> itemsDeferredRegister: MyItemRegister.CommonItem){
             if(itemsDeferredRegister.isPresent()){
                 itemGenerateModel(itemsDeferredRegister.get(),resourceItem(itemName(itemsDeferredRegister.get())));
             }
         }
-        for(RegistryObject<Item> itemsDeferredRegister: ItemRegister.CraftItem){
+        for(RegistryObject<Item> itemsDeferredRegister: MyItemRegister.CraftItem){
             if(itemsDeferredRegister.isPresent()){
                 itemGenerateModel(itemsDeferredRegister.get(),resourceItem(itemName(itemsDeferredRegister.get())));
             }

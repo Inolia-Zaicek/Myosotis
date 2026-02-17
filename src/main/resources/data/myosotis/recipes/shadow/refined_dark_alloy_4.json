@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:magic_steel_ingot"
+    },
+    "B": {
+      "item": "myosotis:pure_dark_magical_core"
+    }
+  },
+  "result": {
+    "item": "myosotis:refined_dark_alloy",
+    "count": 4
+  }
+}

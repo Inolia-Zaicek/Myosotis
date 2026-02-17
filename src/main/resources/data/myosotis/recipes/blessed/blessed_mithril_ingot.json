@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "ACA",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:magic_dust"
+    },
+    "B": {
+      "item": "myosotis:magic_stone"
+    },
+    "C": {
+      "item": "myosotis:mithril_ingot"
+    }
+  },
+  "result": {
+    "item": "myosotis:blessed_mithril_ingot",
+    "count": 1
+  }
+}

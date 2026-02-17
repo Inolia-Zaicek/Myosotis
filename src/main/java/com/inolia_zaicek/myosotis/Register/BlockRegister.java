@@ -3,7 +3,6 @@ package com.inolia_zaicek.myosotis.Register;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -26,10 +25,10 @@ public class BlockRegister {
     public static List<RegistryObject<Block>> CommonBlock=new ArrayList<>(List.of());
     //把方块对应的物品注册的Item注册表上
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
-        RegistryObject<Item> blockItem = ItemRegister.ZeroingITEM.register(name,()->new BlockItem(block.get(),new Item.Properties()));
+        RegistryObject<Item> blockItem = MyItemRegister.ZeroingITEM.register(name,()->new BlockItem(block.get(),new Item.Properties()));
         // **** 新增的代码行 ****
         //（但是生成模型的时候得把下面那行代码去了）将注册的 BlockItem 添加到 ZeroingStoryItem 的 CommonItem 列表中，这样它就会被 CreativeModeTab 遍历到
-        ItemRegister.BlockItem.add(blockItem);
+        MyItemRegister.BlockItem.add(blockItem);
         // **** 结束新增的代码行 ****
         return  blockItem;
     }

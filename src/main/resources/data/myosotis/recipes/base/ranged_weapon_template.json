@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACC",
+    "C B",
+    "CB "
+  ],
+  "key": {
+    "A": {
+      "item": "myosotis:dense_mana_stone"
+    },
+    "B": {
+      "item": "myosotis:magic_controller"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "myosotis:ranged_weapon_template",
+    "count": 1
+  }
+}

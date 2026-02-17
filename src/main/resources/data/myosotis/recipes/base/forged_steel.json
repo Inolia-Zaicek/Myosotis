@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 10.0,
+  "group": "zeroing_story",
+  "ingredient": {
+    "item": "minecraft:iron_block"
+  },
+  "result": "myosotis:forged_steel"
+}
